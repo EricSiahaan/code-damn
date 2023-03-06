@@ -1,0 +1,19 @@
+div p {
+    color: red;
+}
+
+/* #p-tag {
+    color: gray;
+} */
+
+#p-tag.p-tag {
+    color: green;
+}
+
+body div p {
+    color: aqua;
+}
+
+p {
+    color: blue;
+}

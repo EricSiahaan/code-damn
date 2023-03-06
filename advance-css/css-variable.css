@@ -1,0 +1,12 @@
+html {
+    --bgcolor: green;
+    --bgdiv:red;
+}
+
+#somediv {
+    background: var(--bgdiv);
+}
+
+body {
+    background: var(--bgcolor);
+}

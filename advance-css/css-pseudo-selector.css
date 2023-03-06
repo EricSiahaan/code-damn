@@ -1,0 +1,35 @@
+html {
+    --bgcolor: green;
+    --standar-font-size:20px;
+    --h1-font-size: calc(var(--standar-font-size)/2);
+    --P-font-size: calc(var(--standar-font-size)*1.5);
+    --divpadding:20px;
+}
+
+body{
+    background: var(--bgcolor);
+    font-size: var(--P-font-size);
+}
+
+h1 {
+    font-size: calc(30px+2em);
+}
+
+li {
+    background: black;
+    color: white;
+}
+
+li:hover {
+    color: greenyellow;
+    background: red;
+
+}
+
+#banner {
+    display: none;
+}
+
+input:focus + #banner {
+    display: block;
+}
