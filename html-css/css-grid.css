@@ -1,0 +1,28 @@
+body {
+    padding: 10px;;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#grid {
+    background: yellow;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+#grid div {
+    width: 100px;
+    height: 100px;
+}
+
+#grid div:nth-child(2n) {
+    background: red;
+}
+
+#grid div:nth-child(2n+1) {
+    background: blue;
+}

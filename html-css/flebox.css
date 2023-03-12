@@ -1,0 +1,19 @@
+body {
+    background: pink;
+}
+
+.newnewlayout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.newnewlayout div {
+  background:green;
+  flex-shrink: 0;
+  height: 50px;
+  flex-basis: 200px;
+  border: 2px solid black;
+  margin: 10px;
+}

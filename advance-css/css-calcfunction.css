@@ -1,0 +1,19 @@
+html {
+    --bgcolor: green;
+    --standar-font-size:20px;
+    --h1-font-size: calc(var(--standar-font-size)*2);
+    --divpadding:20px;
+}
+
+#somediv {
+    background: var(--bgdiv, yellow);
+    padding: var(--divpadding);
+}
+
+body {
+    background: var(--bgcolor);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}

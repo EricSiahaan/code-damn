@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+.newnewimage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.newnewimage div {
+    background: white;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    margin: 0.1px;
+}
