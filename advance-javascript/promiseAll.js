@@ -1,7 +1,7 @@
 
 function promiseSetTimeout() {
     return new Promise(resolve => {
-        setTimeout(()=> {
+        setTimeout(() => {
             resolve()
         }, 1000)
     })
@@ -12,7 +12,7 @@ async function fetchAll() {
     const req2 = await fetch('./data2.json')
     const req3 = await fetch('./data3.json')
 
-    console.log(req1,req2,req3)
+    console.log(req1, req2, req3)
 }
 
 fetchAll()
